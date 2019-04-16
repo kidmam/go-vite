@@ -34,8 +34,8 @@ type OrderTx struct {
 }
 
 var (
-	TakerFeeRate          = "0.001"
-	MakerFeeRate          = "0.001"
+	TakerFeeRate          = "0.0025"
+	MakerFeeRate          = "0.0025"
 	DeleteTerminatedOrder = true
 )
 
@@ -533,7 +533,7 @@ func (mc *Matcher) rawDelete(orderId OrderId) {
 
 func newLog(event OrderEvent) *ledger.VmLog {
 	log := &ledger.VmLog{}
-	log.Topics = append(log.Topics, event.getTopicId())
+	log.Topics = append(log.Topics, event.GetTopicId())
 	log.Data = event.toDataBytes()
 	return log
 }
