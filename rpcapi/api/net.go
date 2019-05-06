@@ -4,9 +4,9 @@ import (
 	"strconv"
 
 	"github.com/vitelabs/go-vite/log15"
+	"github.com/vitelabs/go-vite/net"
 	"github.com/vitelabs/go-vite/p2p"
 	"github.com/vitelabs/go-vite/vite"
-	"github.com/vitelabs/go-vite/vite/net"
 )
 
 type NetApi struct {

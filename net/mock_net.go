@@ -4,8 +4,8 @@ import (
 	net2 "net"
 	"sync"
 
+	"github.com/vitelabs/go-vite/net/circle"
 	"github.com/vitelabs/go-vite/p2p"
-	"github.com/vitelabs/go-vite/vite/net/circle"
 )
 
 type mockNet struct {

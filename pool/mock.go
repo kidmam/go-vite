@@ -4,7 +4,7 @@ import (
 	"github.com/vitelabs/go-vite/common/types"
 	"github.com/vitelabs/go-vite/ledger"
 	"github.com/vitelabs/go-vite/log15"
-	"github.com/vitelabs/go-vite/vite/net"
+	"github.com/vitelabs/go-vite/net"
 	"github.com/vitelabs/go-vite/vm_db"
 )
 

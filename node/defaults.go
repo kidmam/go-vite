@@ -6,10 +6,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/vitelabs/go-vite/p2p/discovery"
-	"github.com/vitelabs/go-vite/vite/net"
-
 	"github.com/vitelabs/go-vite/common"
+	"github.com/vitelabs/go-vite/net"
+	"github.com/vitelabs/go-vite/p2p/discovery"
 )
 
 var DefaultNodeConfig = Config{

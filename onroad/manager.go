@@ -3,17 +3,18 @@ package onroad
 import (
 	"errors"
 	"fmt"
+	"sync"
+	"time"
+
 	"github.com/vitelabs/go-vite/chain"
 	"github.com/vitelabs/go-vite/common"
 	"github.com/vitelabs/go-vite/common/types"
 	"github.com/vitelabs/go-vite/generator"
 	"github.com/vitelabs/go-vite/log15"
+	"github.com/vitelabs/go-vite/net"
 	"github.com/vitelabs/go-vite/onroad/pool"
 	"github.com/vitelabs/go-vite/producer/producerevent"
-	"github.com/vitelabs/go-vite/vite/net"
 	"github.com/vitelabs/go-vite/wallet"
-	"sync"
-	"time"
 )
 
 var (

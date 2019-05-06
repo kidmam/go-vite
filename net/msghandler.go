@@ -11,9 +11,9 @@ import (
 	"github.com/vitelabs/go-vite/common/types"
 	"github.com/vitelabs/go-vite/ledger"
 	"github.com/vitelabs/go-vite/monitor"
+	"github.com/vitelabs/go-vite/net/message"
 	"github.com/vitelabs/go-vite/p2p"
 	"github.com/vitelabs/go-vite/tools/list"
-	"github.com/vitelabs/go-vite/vite/net/message"
 )
 
 type code = p2p.Code
